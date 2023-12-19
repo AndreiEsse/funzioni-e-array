@@ -5,5 +5,5 @@ function tabellina(numTabellina) {
     }
     return tabella
 }
-let numMoltip = 5;
-tabellina(numMoltip);
+let numMoltipl = 5;
+tabellina(numMoltipl);
