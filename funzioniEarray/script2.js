@@ -20,11 +20,11 @@
   
 //   console.log(numcas2);
 let array = [];
-function NumOrd(num) {
+function NumOrdn(num) {
   for (let i = 0; i < num; i++) {
     array.push(Math.floor(Math.random() * (50 - (-50) + 1) + (-50)));
     array.sort((a, b) => b - a);
   }
      return array
 }
-console.log(NumOrd(10));
+console.log(NumOrdn(10));
